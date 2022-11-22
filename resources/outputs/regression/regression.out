@@ -1,0 +1,546 @@
+/home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/venv/bin/python /home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/src/ML_training/regression/genetic_algorithm.py
+Regression GA
+(12822, 31) (2318, 31) (12822,) (2318,) (2627, 31) (2627,)
+--------------------------------------------------
+Testing LinearRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.03225229956141735
+Iteration: 20
+Best fitness: -0.03219303397207651
+Iteration: 30
+Best fitness: -0.032162140229665924
+Iteration: 40
+Best fitness: -0.03216183961835925
+Iteration: 50
+Best fitness: -0.03216183961835925
+Iteration: 60
+Best fitness: -0.03216183961835925
+Iteration: 70
+Best fitness: -0.03216183961835925
+Iteration: 80
+Best fitness: -0.03216183961835925
+Iteration: 90
+Best fitness: -0.03216183961835925
+Iteration: 100
+Best fitness: -0.03216183961835925
+/home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/venv/lib/python3.10/site-packages/geneal/genetic_algorithms/genetic_algorithm_base.py:392: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+#############################
+#                       STATS                   #
+#############################
+
+
+Total running time: 2 minutes, 39 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.03216183961835925
+Best individual: [1. 1. 1. 1. 0. 0. 1. 1. 1. 1. 1. 0. 0. 0. 1. 0. 0. 1. 0. 1. 0. 1. 1. 0.
+ 1. 1. 1. 0. 1. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing HuberRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.032340450349202764
+Iteration: 20
+Best fitness: -0.032245599568143046
+Iteration: 30
+Best fitness: -0.03224000299446388
+Iteration: 40
+Best fitness: -0.032236135883078255
+Iteration: 50
+Best fitness: -0.032236135883078255
+Iteration: 60
+Best fitness: -0.032236135883078255
+Iteration: 70
+Best fitness: -0.032236135883078255
+Iteration: 80
+Best fitness: -0.032236135883078255
+Iteration: 90
+Best fitness: -0.032236135883078255
+Iteration: 100
+Best fitness: -0.032236135883078255
+/home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/venv/lib/python3.10/site-packages/geneal/genetic_algorithms/genetic_algorithm_base.py:392: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+#############################
+#                       STATS                   #
+#############################
+
+
+Total running time: 13 minutes, 14 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.032236135883078255
+Best individual: [1. 1. 0. 1. 0. 0. 0. 0. 0. 1. 1. 0. 0. 1. 1. 0. 0. 1. 1. 0. 1. 0. 1. 0.
+ 0. 1. 1. 0. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing SGD
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.03235586411558751
+Iteration: 20
+Best fitness: -0.03226775063252414
+Iteration: 30
+Best fitness: -0.03225650835703031
+Iteration: 40
+Best fitness: -0.03222093924075746
+Iteration: 50
+Best fitness: -0.032202448070698365
+Iteration: 60
+Best fitness: -0.032202448070698365
+Iteration: 70
+Best fitness: -0.032202448070698365
+Iteration: 80
+Best fitness: -0.032202448070698365
+Iteration: 90
+Best fitness: -0.032197961888811064
+Iteration: 100
+Best fitness: -0.032197961888811064
+/home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/venv/lib/python3.10/site-packages/geneal/genetic_algorithms/genetic_algorithm_base.py:392: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+#############################
+#                       STATS                   #
+#############################
+
+
+Total running time: 2 minutes, 1 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.032197961888811064
+Best individual: [0. 1. 0. 1. 0. 0. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 0. 0. 0. 0. 1. 1. 1. 0.
+ 1. 1. 1. 1. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing XGBoostRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.03282223977349019
+Iteration: 20
+Best fitness: -0.032461094499490105
+Iteration: 30
+Best fitness: -0.032461094499490105
+Iteration: 40
+Best fitness: -0.032461094499490105
+Iteration: 50
+Best fitness: -0.032461094499490105
+Iteration: 60
+Best fitness: -0.032461094499490105
+Iteration: 70
+Best fitness: -0.032461094499490105
+Iteration: 80
+Best fitness: -0.032461094499490105
+Iteration: 90
+Best fitness: -0.032461094499490105
+Iteration: 100
+Best fitness: -0.032186877349487934
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 2 hours, 20 minutes, 32 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.032186877349487934
+Best individual: [0. 1. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 1. 0. 1. 1. 0. 1. 1.
+ 1. 0. 1. 1. 1. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing XGBRFRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.03136217188126918
+Iteration: 20
+Best fitness: -0.031288838751674555
+Iteration: 30
+Best fitness: -0.03126190657915894
+Iteration: 40
+Best fitness: -0.03120262542005205
+Iteration: 50
+Best fitness: -0.03120262542005205
+Iteration: 60
+Best fitness: -0.03120262542005205
+Iteration: 70
+Best fitness: -0.03120262542005205
+Iteration: 80
+Best fitness: -0.03117647637773704
+Iteration: 90
+Best fitness: -0.031153430272602076
+Iteration: 100
+Best fitness: -0.031099150527551987
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 1 hours, 38 minutes, 28 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.031099150527551987
+Best individual: [1. 0. 0. 0. 1. 0. 1. 1. 1. 1. 0. 0. 0. 0. 1. 0. 0. 0. 1. 1. 1. 1. 0. 0.
+ 0. 1. 0. 1. 1. 1. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing DecisionTreeRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.05455980001695967
+Iteration: 20
+Best fitness: -0.054151885523052994
+Iteration: 30
+Best fitness: -0.054151885523052994
+Iteration: 40
+Best fitness: -0.053180842000951134
+Iteration: 50
+Best fitness: -0.053180842000951134
+Iteration: 60
+Best fitness: -0.053180842000951134
+Iteration: 70
+Best fitness: -0.0529404996001852
+Iteration: 80
+Best fitness: -0.052340334268522457
+Iteration: 90
+Best fitness: -0.052340334268522457
+Iteration: 100
+Best fitness: -0.052340334268522457
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 40 minutes, 13 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.052340334268522457
+Best individual: [1. 1. 1. 1. 1. 0. 0. 0. 1. 0. 0. 1. 0. 1. 1. 1. 1. 0. 0. 0. 1. 0. 1. 1.
+ 1. 1. 0. 1. 0. 0. 1.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing BaggingRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.03368004652668216
+Iteration: 20
+Best fitness: -0.03368004652668216
+Iteration: 30
+Best fitness: -0.033660568002588445
+Iteration: 40
+Best fitness: -0.03346691482220145
+Iteration: 50
+Best fitness: -0.03346691482220145
+Iteration: 60
+Best fitness: -0.03346691482220145
+Iteration: 70
+Best fitness: -0.033411126462957484
+Iteration: 80
+Best fitness: -0.033411126462957484
+Iteration: 90
+Best fitness: -0.033411126462957484
+Iteration: 100
+Best fitness: -0.033411126462957484
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 3 hours, 30 minutes, 45 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.033411126462957484
+Best individual: [0. 0. 1. 0. 1. 0. 1. 1. 1. 0. 1. 1. 0. 1. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 1. 1. 0. 0. 1. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+/home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/venv/bin/python /home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/src/ML_training/regression/genetic_algorithm.py
+Regression GA
+(12822, 31) (2318, 31) (12822,) (2318,) (2627, 31) (2627,)
+--------------------------------------------------
+Testing ADABoostRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.031875052597492376
+Iteration: 20
+Best fitness: -0.03182087764939118
+Iteration: 30
+Best fitness: -0.03146863557093143
+Iteration: 40
+Best fitness: -0.0314488255340837
+Iteration: 50
+Best fitness: -0.03129790245010736
+Iteration: 60
+Best fitness: -0.03129790245010736
+Iteration: 70
+Best fitness: -0.031230933994189507
+Iteration: 80
+Best fitness: -0.031230933994189507
+Iteration: 90
+Best fitness: -0.031188281069736243
+Iteration: 100
+Best fitness: -0.031188281069736243
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 1 hours, 46 minutes, 31 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.031188281069736243
+Best individual: [0. 0. 1. 0. 0. 0. 1. 1. 1. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 1. 0. 1. 1. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing GradientBoostingRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.03144967350674507
+Iteration: 20
+Best fitness: -0.031365443503466296
+Iteration: 30
+Best fitness: -0.031355284964168666
+Iteration: 40
+Best fitness: -0.03130698426138553
+Iteration: 50
+Best fitness: -0.03120681654093957
+Iteration: 60
+Best fitness: -0.03118538173767697
+Iteration: 70
+Best fitness: -0.031137139048154478
+Iteration: 80
+Best fitness: -0.03102731591676598
+Iteration: 90
+Best fitness: -0.030956032232408007
+Iteration: 100
+Best fitness: -0.0309109987188796
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 6 hours, 29 minutes, 35 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.0309109987188796
+Best individual: [0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 1. 1. 0. 0. 0.
+ 1. 1. 1. 0. 1. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing ExtraTreeRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.05410311359628553
+Iteration: 20
+Best fitness: -0.05410311359628553
+Iteration: 30
+Best fitness: -0.05410311359628553
+Iteration: 40
+Best fitness: -0.05410311359628553
+Iteration: 50
+Best fitness: -0.05410311359628553
+Iteration: 60
+Best fitness: -0.05410311359628553
+Iteration: 70
+Best fitness: -0.05410311359628553
+Iteration: 80
+Best fitness: -0.05410311359628553
+Iteration: 90
+Best fitness: -0.052574294457320585
+Iteration: 100
+Best fitness: -0.052574294457320585
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 4 minutes, 23 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.052574294457320585
+Best individual: [1. 1. 0. 1. 0. 0. 1. 0. 1. 0. 1. 0. 0. 1. 0. 1. 0. 1. 1. 1. 1. 0. 1. 0.
+ 1. 0. 1. 0. 1. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing RandomForestRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: -0.0320083161355909
+Iteration: 20
+Best fitness: -0.03167885632457054
+Iteration: 30
+Best fitness: -0.03167885632457054
+Iteration: 40
+Best fitness: -0.03167885632457054
+Iteration: 50
+Best fitness: -0.031621831103551865
+Iteration: 60
+Best fitness: -0.031621831103551865
+Iteration: 70
+Best fitness: -0.031621831103551865
+Iteration: 80
+Best fitness: -0.031621831103551865
+Iteration: 90
+Best fitness: -0.03155115766424797
+Iteration: 100
+Best fitness: -0.03155115766424797
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 9 hours, 42 minutes, 37 seconds
+
+
+Population size: 40
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: -0.03155115766424797
+Best individual: [0. 0. 1. 0. 1. 1. 1. 1. 0. 0. 0. 1. 0. 1. 1. 0. 0. 1. 1. 0. 1. 1. 0. 0.
+ 0. 1. 0. 0. 1. 1. 1.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing NN
+--------------------------------------------------
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 7 hours, 59 minutes, 32 seconds
+
+
+Population size: 20
+Number variables: 31
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 50
+
+Best fitness: -0.03246137872338295
+Best individual: [0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+ 1. 0. 0. 0. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+
+Process finished with exit code 0
+

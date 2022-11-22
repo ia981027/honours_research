@@ -1,0 +1,766 @@
+/home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/venv/bin/python /home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/src/ML_training/classification/genetic_algorithm.py
+classification
+[1 0 4 0 0 3 1 3 5 5 3 0 5 3 0 0 4 0 4 3 5 0 5 5 1 4 0 5 0 5 5 5 4 4 5 5 5
+ 5 3 4 5 5 4 4 4 4 2 1 3 5 0 3 0 5 0 3 5 0 3 0 0 4 5 0 0 5 5 4 3 4 5 3 5 5
+ 3 0 5 3 4 5 1 5 3 3 8 3 3 0 5 4 0 5 5 0 9 4 5 5 5 5 4 0 5 3 5 0 5 0 3 4 5
+ 5 0 5 3 5 4 5 0 3 4 4 0 0 3 5 0 4 3 4 0 3 1 5 1 4 4 0 5 4 2 3 0 4 1 1 5 5
+ 1 5 5 5 0 0 5 8 3 2 5 0 4 5 2 3 4 0 0 0 5 4 4 1 3 4 3 1 3 5 5 3 5 0 5 0 0
+ 0 4 0 5 0 2 4 3 4 0 4 0 1 8 1 4 5 0 2 5 0 0 0 5 0 4 0 2 5 3 5 5 5 1 0 5 5
+ 3 5 4 3 4 5 3 4 0 3 0 8 3 3 4 3 4 3 3 5 8 0 4 0 4 4 3 4 5 5 0 4 4 4 3 5 5
+ 5 8 4 5 0 3 2 7 8 3 0 0 1 4 4 7 3 4 0 5 0 5 8 5 5 0 1 3 0 4 5 5 3 4 4 4 5
+ 3 5 4 8 5 0 4 5 3 3 0 1 4 5 4 5 0 3 0 4 0 4 8 0 4 4 4 5 3 5 4 4 5 5 5 4 0
+ 1 3 0 4 0 3 5 4 1 5 5 5 4 5 3 5 0 8 4 0 0 4 5 8 3 5 4 0 5 0 5 5 4 5 5 3 0
+ 4 0 3 4 5 2 5 4 0 4 4 5 0 4 2 5 5 0 3 0 4 0 5 3 4 5 4 5 5 2 3 4 3 4 5 5 0
+ 4 0 0 4 5 5 5 0 4 4 0 0 5 2 0]
+(1984, 17) (422, 17) (1984,) (422,) (407, 17) (407,)
+--------------------------------------------------
+Testing XGBoost
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.7132701421800948
+Iteration: 20
+Best fitness: 0.7156398104265402
+Iteration: 30
+Best fitness: 0.7156398104265402
+Iteration: 40
+Best fitness: 0.7156398104265402
+Iteration: 50
+Best fitness: 0.7156398104265402
+Iteration: 60
+Best fitness: 0.7156398104265402
+Iteration: 70
+Best fitness: 0.7156398104265402
+Iteration: 80
+Best fitness: 0.7156398104265402
+Iteration: 90
+Best fitness: 0.7156398104265402
+Iteration: 100
+Best fitness: 0.7156398104265402
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 4 hours, 12 minutes, 18 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.7156398104265402
+Best individual: [1. 1. 1. 1. 1. 1. 0. 0. 1. 1. 1. 0. 1. 1. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing XGBRFClassifier
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.5734597156398105
+Iteration: 20
+Best fitness: 0.5758293838862559
+Iteration: 30
+Best fitness: 0.5853080568720379
+Iteration: 40
+Best fitness: 0.5876777251184834
+Iteration: 50
+Best fitness: 0.5876777251184834
+Iteration: 60
+Best fitness: 0.5924170616113744
+Iteration: 70
+Best fitness: 0.5947867298578199
+Iteration: 80
+Best fitness: 0.5947867298578199
+Iteration: 90
+Best fitness: 0.5947867298578199
+Iteration: 100
+Best fitness: 0.5947867298578199
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 1 hours, 39 minutes, 24 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.5947867298578199
+Best individual: [1. 0. 0. 1. 1. 1. 0. 1. 0. 1. 0. 0. 1. 1. 0. 1. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing DecisionTreeClassifier
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.6824644549763034
+Iteration: 20
+Best fitness: 0.6824644549763034
+Iteration: 30
+Best fitness: 0.6895734597156398
+Iteration: 40
+Best fitness: 0.6895734597156398
+Iteration: 50
+Best fitness: 0.6895734597156398
+Iteration: 60
+Best fitness: 0.6895734597156398
+Iteration: 70
+Best fitness: 0.6895734597156398
+Iteration: 80
+Best fitness: 0.6895734597156398
+Iteration: 90
+Best fitness: 0.6895734597156398
+Iteration: 100
+Best fitness: 0.6895734597156398
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 1 minutes, 27 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.6895734597156398
+Best individual: [1. 1. 1. 1. 1. 0. 1. 1. 0. 0. 0. 1. 1. 1. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing BaggingClassifier
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.7037914691943128
+Iteration: 20
+Best fitness: 0.7037914691943128
+Iteration: 30
+Best fitness: 0.7037914691943128
+Iteration: 40
+Best fitness: 0.7037914691943128
+Iteration: 50
+Best fitness: 0.7037914691943128
+Iteration: 60
+Best fitness: 0.7156398104265402
+Iteration: 70
+Best fitness: 0.7156398104265402
+Iteration: 80
+Best fitness: 0.7156398104265402
+Iteration: 90
+Best fitness: 0.7156398104265402
+Iteration: 100
+Best fitness: 0.7156398104265402
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 8 minutes, 47 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.7156398104265402
+Best individual: [1. 1. 0. 1. 1. 1. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing RandomForestClassifier
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.7180094786729858
+Iteration: 20
+Best fitness: 0.7251184834123223
+Iteration: 30
+Best fitness: 0.7322274881516587
+Iteration: 40
+Best fitness: 0.7322274881516587
+Iteration: 50
+Best fitness: 0.7322274881516587
+Iteration: 60
+Best fitness: 0.7417061611374408
+Iteration: 70
+Best fitness: 0.7440758293838863
+Iteration: 80
+Best fitness: 0.7440758293838863
+Iteration: 90
+Best fitness: 0.7440758293838863
+Iteration: 100
+Best fitness: 0.7440758293838863
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 33 minutes, 21 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.7440758293838863
+Best individual: [1. 1. 0. 1. 1. 0. 0. 1. 0. 1. 0. 0. 1. 0. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+
+--------------------------------------------------
+Testing ADABoost
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.36255924170616116
+Iteration: 20
+Best fitness: 0.36255924170616116
+Iteration: 30
+Best fitness: 0.36255924170616116
+Iteration: 40
+Best fitness: 0.36255924170616116
+Iteration: 50
+Best fitness: 0.36255924170616116
+Iteration: 60
+Best fitness: 0.36255924170616116
+Iteration: 70
+Best fitness: 0.36255924170616116
+Iteration: 80
+Best fitness: 0.36255924170616116
+Iteration: 90
+Best fitness: 0.36255924170616116
+Iteration: 100
+Best fitness: 0.36255924170616116
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 11 minutes, 45 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.36255924170616116
+Best individual: [0. 1. 0. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing GradientBoosting
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.6255924170616114
+Iteration: 20
+Best fitness: 0.6492890995260664
+Iteration: 30
+Best fitness: 0.6492890995260664
+Iteration: 40
+Best fitness: 0.6516587677725119
+Iteration: 50
+Best fitness: 0.6516587677725119
+Iteration: 60
+Best fitness: 0.6516587677725119
+Iteration: 70
+Best fitness: 0.6516587677725119
+Iteration: 80
+Best fitness: 0.6516587677725119
+Iteration: 90
+Best fitness: 0.6516587677725119
+Iteration: 100
+Best fitness: 0.6516587677725119
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 8 hours, 14 minutes,
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.6516587677725119
+Best individual: [1. 1. 1. 0. 1. 1. 0. 0. 0. 1. 0. 1. 1. 1. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing ExtraTreeClassifier
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.6682464454976303
+Iteration: 20
+Best fitness: 0.6824644549763034
+Iteration: 30
+Best fitness: 0.6824644549763034
+Iteration: 40
+Best fitness: 0.6824644549763034
+Iteration: 50
+Best fitness: 0.6966824644549763
+Iteration: 60
+Best fitness: 0.6966824644549763
+Iteration: 70
+Best fitness: 0.6966824644549763
+Iteration: 80
+Best fitness: 0.6966824644549763
+Iteration: 90
+Best fitness: 0.6966824644549763
+Iteration: 100
+Best fitness: 0.6966824644549763
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 16 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.6966824644549763
+Best individual: [1. 1. 1. 0. 1. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing HierarchicalCluster
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.2843601895734597
+Iteration: 20
+Best fitness: 0.2843601895734597
+Iteration: 30
+Best fitness: 0.2843601895734597
+Iteration: 40
+Best fitness: 0.2843601895734597
+Iteration: 50
+Best fitness: 0.2843601895734597
+Iteration: 60
+Best fitness: 0.2843601895734597
+Iteration: 70
+Best fitness: 0.2843601895734597
+Iteration: 80
+Best fitness: 0.2843601895734597
+Iteration: 90
+Best fitness: 0.2843601895734597
+Iteration: 100
+Best fitness: 0.2843601895734597
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 13 minutes, 19 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.2843601895734597
+Best individual: [0. 0. 0. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing DBScan
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.22274881516587677
+Iteration: 20
+Best fitness: 0.22274881516587677
+Iteration: 30
+Best fitness: 0.22274881516587677
+Iteration: 40
+Best fitness: 0.22274881516587677
+Iteration: 50
+Best fitness: 0.22274881516587677
+Iteration: 60
+Best fitness: 0.22274881516587677
+Iteration: 70
+Best fitness: 0.22274881516587677
+Iteration: 80
+Best fitness: 0.22274881516587677
+Iteration: 90
+Best fitness: 0.22274881516587677
+Iteration: 100
+Best fitness: 0.22274881516587677
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 4 minutes, 36 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.22274881516587677
+Best individual: [0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing KMeans
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.28672985781990523
+Iteration: 20
+Best fitness: 0.28672985781990523
+Iteration: 30
+Best fitness: 0.28672985781990523
+Iteration: 40
+Best fitness: 0.2890995260663507
+Iteration: 50
+Best fitness: 0.2890995260663507
+Iteration: 60
+Best fitness: 0.2985781990521327
+Iteration: 70
+Best fitness: 0.2985781990521327
+Iteration: 80
+Best fitness: 0.2985781990521327
+Iteration: 90
+Best fitness: 0.2985781990521327
+Iteration: 100
+Best fitness: 0.2985781990521327
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 30 minutes, 19 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.2985781990521327
+Best individual: [0. 1. 1. 1. 0. 1. 0. 0. 1. 0. 0. 1. 1. 1. 1. 1. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing NN
+--------------------------------------------------
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 4 hours, 48 minutes, 3 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 50
+
+Best fitness: 0.5355450510978699
+Best individual: [1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+
+--------------------------------------------------
+Testing LinearRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.1895734597156398
+Iteration: 20
+Best fitness: 0.19194312796208532
+Iteration: 30
+Best fitness: 0.19194312796208532
+Iteration: 40
+Best fitness: 0.19194312796208532
+Iteration: 50
+Best fitness: 0.19194312796208532
+Iteration: 60
+Best fitness: 0.19194312796208532
+Iteration: 70
+Best fitness: 0.19194312796208532
+Iteration: 80
+Best fitness: 0.19194312796208532
+Iteration: 90
+Best fitness: 0.19194312796208532
+Iteration: 100
+Best fitness: 0.19194312796208532
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 7 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.19194312796208532
+Best individual: [1. 1. 0. 1. 0. 0. 0. 0. 0. 0. 1. 1. 1. 0. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing HuberRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.22511848341232227
+Iteration: 20
+Best fitness: 0.22511848341232227
+Iteration: 30
+Best fitness: 0.22748815165876776
+Iteration: 40
+Best fitness: 0.22748815165876776
+Iteration: 50
+Best fitness: 0.22748815165876776
+Iteration: 60
+Best fitness: 0.22748815165876776
+Iteration: 70
+Best fitness: 0.22748815165876776
+Iteration: 80
+Best fitness: 0.22748815165876776
+Iteration: 90
+Best fitness: 0.22748815165876776
+Iteration: 100
+Best fitness: 0.22748815165876776
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 49 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.22748815165876776
+Best individual: [0. 0. 1. 1. 0. 1. 1. 1. 1. 0. 0. 1. 0. 0. 0. 1. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing RidgeRegressor
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.34834123222748814
+Iteration: 20
+Best fitness: 0.34834123222748814
+Iteration: 30
+Best fitness: 0.34834123222748814
+Iteration: 40
+Best fitness: 0.34834123222748814
+Iteration: 50
+Best fitness: 0.34834123222748814
+Iteration: 60
+Best fitness: 0.34834123222748814
+Iteration: 70
+Best fitness: 0.34834123222748814
+Iteration: 80
+Best fitness: 0.34834123222748814
+Iteration: 90
+Best fitness: 0.34834123222748814
+Iteration: 100
+Best fitness: 0.34834123222748814
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 13 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.34834123222748814
+Best individual: [1. 0. 1. 1. 1. 0. 0. 1. 1. 1. 0. 1. 1. 1. 0. 0. 0.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing LogisticRegression
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.3886255924170616
+Iteration: 20
+Best fitness: 0.3909952606635071
+Iteration: 30
+Best fitness: 0.3933649289099526
+Iteration: 40
+Best fitness: 0.3933649289099526
+Iteration: 50
+Best fitness: 0.3957345971563981
+Iteration: 60
+Best fitness: 0.3957345971563981
+Iteration: 70
+Best fitness: 0.3957345971563981
+Iteration: 80
+Best fitness: 0.3957345971563981
+Iteration: 90
+Best fitness: 0.3957345971563981
+Iteration: 100
+Best fitness: 0.3957345971563981
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 14 minutes, 29 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.3957345971563981
+Best individual: [0. 1. 1. 1. 1. 0. 0. 1. 0. 1. 0. 0. 0. 0. 1. 1. 1.]
+End of testing
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+Testing SGD
+--------------------------------------------------
+Iteration: 10
+Best fitness: 0.3791469194312796
+Iteration: 20
+Best fitness: 0.3791469194312796
+Iteration: 30
+Best fitness: 0.3791469194312796
+Iteration: 40
+Best fitness: 0.38388625592417064
+Iteration: 50
+Best fitness: 0.38388625592417064
+Iteration: 60
+Best fitness: 0.38388625592417064
+Iteration: 70
+Best fitness: 0.3909952606635071
+Iteration: 80
+Best fitness: 0.3909952606635071
+Iteration: 90
+Best fitness: 0.3909952606635071
+Iteration: 100
+Best fitness: 0.3909952606635071
+
+#############################
+#			STATS			#
+#############################
+
+
+Total running time: 2 minutes, 16 seconds
+
+
+Population size: 40
+Number variables: 17
+Selection rate: 0.6
+Mutation rate: 0.05
+Number Generations: 100
+
+Best fitness: 0.3909952606635071
+Best individual: [0. 1. 1. 0. 1. 0. 0. 1. 1. 1. 0. 0. 1. 1. 0. 0. 1.]
+End of testing
+--------------------------------------------------
+
+
+
+
+Process finished with exit code 0
+
+
+
