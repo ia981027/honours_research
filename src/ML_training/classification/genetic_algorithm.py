@@ -30,23 +30,22 @@ def ga():
     x_train, x_test, y_train, y_test, x_validation, y_validation, columns = get_credit_ratings_train_test_split()
 
     models: {str, BaseModel} = {
-        # "NN": NN(x_train, x_test, y_train, y_test),
         "LinearRegression": MyLinearRegressor(x_train, x_test, y_train, y_test),
         "HuberRegression": MyHuberRegressor(x_train, x_test, y_train, y_test),
         "RidgeRegressor": MyRidgeRegressor(x_train, x_test, y_train, y_test),
         "LogisticRegression": MyLogisticRegressor(x_train, x_test, y_train, y_test),
         "SGD": MySGD(x_train, x_test, y_train, y_test),
-        # "XGBoost": XGBoost(x_train, x_test, y_train, y_test),
-        # "XGBRFClassifier": XGBRFClassifier_(x_train, x_test, y_train, y_test),
-        # "DecisionTreeClassifier": DecisionTreeClassifier_(x_train, x_test, y_train, y_test),
-        # "BaggingClassifier": BaggingClassifier_(x_train, x_test, y_train, y_test),
-        # "RandomForestClassifier": RandomForestClassifier_(x_train, x_test, y_train, y_test),
-        # "ADABoost": ADABoostClassifier_(x_train, x_test, y_train, y_test),
-        # "GradientBoosting": GradientBoostingClassifier_(x_train, x_test, y_train, y_test),
-        # "ExtraTreeClassifier": ExtraTreeClassifier_(x_train, x_test, y_train, y_test),
-        # "HierarchicalCluster": HierarchicalCluster(x_train, x_test, y_train, y_test),
-        # "DBScan": DBScan(x_train, x_test, y_train, y_test),
-        # "KMeans": KMeans_(x_train, x_test, y_train, y_test)
+        "XGBoost": XGBoost(x_train, x_test, y_train, y_test),
+        "XGBRFClassifier": XGBRFClassifier_(x_train, x_test, y_train, y_test),
+        "DecisionTreeClassifier": DecisionTreeClassifier_(x_train, x_test, y_train, y_test),
+        "BaggingClassifier": BaggingClassifier_(x_train, x_test, y_train, y_test),
+        "RandomForestClassifier": RandomForestClassifier_(x_train, x_test, y_train, y_test),
+        "ADABoost": ADABoostClassifier_(x_train, x_test, y_train, y_test),
+        "GradientBoosting": GradientBoostingClassifier_(x_train, x_test, y_train, y_test),
+        "ExtraTreeClassifier": ExtraTreeClassifier_(x_train, x_test, y_train, y_test),
+        "HierarchicalCluster": HierarchicalCluster(x_train, x_test, y_train, y_test),
+        "DBScan": DBScan(x_train, x_test, y_train, y_test),
+        "KMeans": KMeans_(x_train, x_test, y_train, y_test)
     }
 
     #

@@ -5,7 +5,6 @@ path.append("/home/vhutali/Desktop/projects/python/ML_finance_project_fast_api/"
 print(path)
 
 from src.ML_training.base_model import BaseModel
-# from src.ML_training.regression.NN.NN import NN
 
 from src.ML_training.regression.regression.huber_regression import MyHuberRegressor
 from src.ML_training.regression.regression.linear_regression import MyLinearRegressor
@@ -16,8 +15,8 @@ from src.ML_training.regression.trees_and_ensembles.decision_tree import Decisio
 from src.ML_training.regression.trees_and_ensembles.extra_tree import ExtraTreeRegression
 from src.ML_training.regression.trees_and_ensembles.gradient_boosting import GradientBoostingRegression
 from src.ML_training.regression.trees_and_ensembles.random_forest import RandomForestRegression
-# from src.ML_training.regression.trees_and_ensembles.xgb import XGBoostRegression
-# from src.ML_training.regression.trees_and_ensembles.xgbrf import XGBRFRegression
+from src.ML_training.regression.trees_and_ensembles.xgb import XGBoostRegression
+from src.ML_training.regression.trees_and_ensembles.xgbrf import XGBRFRegression
 
 from src.utils.data_processor import get_pct_change_train_test_split
 
@@ -25,18 +24,17 @@ from src.utils.data_processor import get_pct_change_train_test_split
 
 x_train, x_test, y_train, y_test, x_test, y_test, columns = get_pct_change_train_test_split()
 models: {str, BaseModel} = {
-    # "NN": NN(x_train, x_test, y_train, y_test),
     "LinearRegression": MyLinearRegressor(x_train, x_test, y_train, y_test),
     "HuberRegression": MyHuberRegressor(x_train, x_test, y_train, y_test),
     "SGD": MySGD(x_train, x_test, y_train, y_test),
-    # "XGBoostRegression": XGBoostRegression(x_train, x_test, y_train, y_test),
-    # "XGBRFRegression": XGBRFRegression(x_train, x_test, y_train, y_test),
-    # "DecisionTreeRegression": DecisionTreeRegression(x_train, x_test, y_train, y_test),
-    # "BaggingRegression": BaggingRegression(x_train, x_test, y_train, y_test),
-    # "ADABoostRegression": ADABoostRegression(x_train, x_test, y_train, y_test),
-    # "GradientBoostingRegression": GradientBoostingRegression(x_train, x_test, y_train, y_test),
-    # "ExtraTreeRegression": ExtraTreeRegression(x_train, x_test, y_train, y_test),
-    # "RandomForestRegression": RandomForestRegression(x_train, x_test, y_train, y_test),
+    "XGBoostRegression": XGBoostRegression(x_train, x_test, y_train, y_test),
+    "XGBRFRegression": XGBRFRegression(x_train, x_test, y_train, y_test),
+    "DecisionTreeRegression": DecisionTreeRegression(x_train, x_test, y_train, y_test),
+    "BaggingRegression": BaggingRegression(x_train, x_test, y_train, y_test),
+    "ADABoostRegression": ADABoostRegression(x_train, x_test, y_train, y_test),
+    "GradientBoostingRegression": GradientBoostingRegression(x_train, x_test, y_train, y_test),
+    "ExtraTreeRegression": ExtraTreeRegression(x_train, x_test, y_train, y_test),
+    "RandomForestRegression": RandomForestRegression(x_train, x_test, y_train, y_test),
 }
 
 def ga():
